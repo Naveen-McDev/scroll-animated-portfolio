@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { SideBar } from "@/components";
 
 type Props = {};
 
@@ -11,7 +10,7 @@ export default function Navbar({}: Props) {
   return (
     <div className="h-[100px]">
       {/* sidebar */}
-      <SideBar />
+
       {/* header */}
       <div className="h-full max-w-[1366px] mx-auto flex justify-between items-center">
         <motion.span
